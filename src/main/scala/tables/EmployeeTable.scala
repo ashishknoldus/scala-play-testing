@@ -1,17 +1,18 @@
 package tables
 
-import com.google.inject.Inject
-import connections.DBComponentImpl
+import connections.{DBComponent, DBComponentImpl}
 import models.Employee
 
 /**
   * Created by knoldus on 14/3/17.
   */
-class EmployeeTable @Inject()(val dBComponent: DBComponentImpl) {
+trait EmployeeTable  {
 
-  import dBComponent.driver.api._
+  this: DBComponent =>
 
-  class EmployeeTable(tag: Tag) extends Table[Employee](tag, "employee"){
+  import driver.api._
+
+  class EmployeeTable(tag: Tag) extends Table[Employee](tag, "employee") {
 
     val id: Rep[Int] = column[Int]("id")
     val name: Rep[String] = column[String]("name")
@@ -21,9 +22,10 @@ class EmployeeTable @Inject()(val dBComponent: DBComponentImpl) {
     val gender: Rep[String] = column[String]("gender")
     val password: Rep[String] = column[String]("password")
 
-    def * = (id, name, email, userName, age, gender, password) <>(Employee.tupled, Employee.unapply)
+    def * = (id, name, email, userName, age, gender, password) <> (Employee.tupled, Employee.unapply)
   }
 
-  val employeeTableQuery:TableQuery[EmployeeTable] = TableQuery[EmployeeTable] //employeeTableQuery is used to create and execute queries on EmployeeTable
+  val employeeTableQuery: TableQuery[EmployeeTable] = TableQuery[EmployeeTable] //employeeTableQuery is used to create and execute queries on EmployeeTable
 
 }
+

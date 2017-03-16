@@ -1,29 +1,26 @@
 package tables
 
-
-
-import com.google.inject.Inject
-import connections.DBComponent
+import connections.{DBComponent, DBComponentImpl}
 import models.Project
 /**
   * Created by knoldus on 15/3/17.
   */
-class ProjectTable @Inject()(val dBComponent: DBComponent, employeeTable: EmployeeTable){
+trait ProjectTable extends EmployeeTable{
 
-  import dBComponent.driver.api._
+  this: DBComponent =>
+  import driver.api._
 
-  private[example] class ProjectTable(tag: Tag) extends Table[Project](tag, "project"){
+  class ProjectTable(tag: Tag) extends Table[Project](tag, "project"){
 
-    val empId: Rep[Int] = column[Int]("id", O.PrimaryKey)
+    val empId: Rep[Int] = column[Int]("empId", O.PrimaryKey)
     val name: Rep[String] = column[String]("name")
 
     def employeeProjectFK = foreignKey(
-      "employee_project_FK", empId, employeeTable.employeeTableQuery
+      "employee_project_FK", empId, employeeTableQuery
     )(_.id)
     def * = (empId, name) <>(Project.tupled, Project.unapply)
   }
 
-
   val projectTableQuery:TableQuery[ProjectTable] = TableQuery[ProjectTable] //employeeTableQuery is used to create and execute queries on EmployeeTable
-
 }
+

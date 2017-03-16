@@ -1,6 +1,5 @@
 package connections
 
-import com.google.inject.Inject
 import com.typesafe.config.ConfigFactory
 import slick.jdbc.JdbcProfile
 
@@ -8,8 +7,7 @@ import slick.jdbc.JdbcProfile
   * Created by knoldus on 13/3/17.
   */
 
-@Inject
-class DBComponentImpl extends DBComponent{
+trait DBComponentImpl extends DBComponent{
 
   val dbType: String = ConfigFactory.load().getString("db-type")
 

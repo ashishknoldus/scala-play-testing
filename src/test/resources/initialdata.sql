@@ -1,7 +1,7 @@
-insert into Employee values(23, "Ashish", "ashish1269@gmail.com", "ashish1269", 24, "male", "dsiub8943")
+insert into employee(`id`, `name`, `username`, `email`, `age`, `gender`, `password`) values(23, 'Ashish',  'ashish1269', 'ashish1269@gmail.com', 24, 'male', 'dsiub8943');
 
-insert into Employee values(21, "Simar KAUR", "simar@gmail.com", "simar", 23, "female", "df959rjgo")
+insert into employee(`id`, `name`, `username`, `email`, `age`, `gender`, `password`) values(21, 'Simar KAUR', 'simar', 'simar@gmail.com', 23, 'female', 'df959rjgo');
 
-insert into Project values(23, "Play Scala Website")
+insert into `project` (`empId`, `name`) values(23, 'Play Scala Website');
 
-insert into Project values(21, "Java 8 Crawler analysis")
+insert into `project` (`empId`, `name`) values(21, 'Java 8 Crawler analysis');

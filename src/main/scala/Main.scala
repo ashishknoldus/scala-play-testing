@@ -1,4 +1,5 @@
 import connections.DBComponentImpl
+import models.Employee
 import repos.EmployeeRepo
 import tables.EmployeeTable
 
@@ -7,15 +8,11 @@ import tables.EmployeeTable
   */
 import scala.concurrent.ExecutionContext.Implicits.global
 
-object Main {
-  def main(args: Array[String]): Unit = {
-    val createTable = new EmployeeRepo(new EmployeeTable(new DBComponentImpl)).create
-    val result  = createTable.map{ result => s"$result -- table created"}.recover{
-      case ex: Throwable => ex.getMessage
-    }
-
-    result.map(println(_))
-
+object Main extends App {
+EmployeeRepo.create
+    val res = EmployeeRepo.insert(Employee(466434655,"sam","edrjhgdhshjgffg@ghj.com","tgyhu",3,"ytuh","pass") :: Nil)
+    res.map(x => print(s"\n\n${x.toString}\n\n"))
+      .recover{case throwable: Throwable => println(s"\n\n${throwable.getMessage} \n\n")}
     Thread.sleep(2000)
-  }
+
 }

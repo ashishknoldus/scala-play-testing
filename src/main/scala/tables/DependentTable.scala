@@ -1,19 +1,21 @@
 package tables
 
-import com.google.inject.Inject
-import connections.DBComponent
+import connections.{DBComponent, DBComponentImpl}
 import models.Dependent
+
 /**
   * Created by knoldus on 15/3/17.
   */
-class DependentTable @Inject()(dBComponent: DBComponent){
+trait DependentTable extends EmployeeTable{
 
-  import dBComponent.driver.api._
+  this: DBComponent =>
+
+  import driver.api._
 
 
   //"experienced_employee" is the table name
   //Employee is case class <-> Can be replaced here with tuple
-  private[models] class DependentTable(tag: Tag) extends Table[Dependent](tag, "dependent"){
+  class DependentTable(tag: Tag) extends Table[Dependent](tag, "dependent") {
 
     val name: Rep[String] = column[String]("name")
     val userName: Rep[String] = column[String]("userName")
@@ -22,10 +24,13 @@ class DependentTable @Inject()(dBComponent: DBComponent){
     val gender: Rep[String] = column[String]("gender")
     val password: Rep[String] = column[String]("password")
 
-    def * = (name, email, userName, age, gender, password) <>(Dependent.tupled, Dependent.unapply)
+    def dependentEmployeeFK = foreignKey(
+      "dependent_employee_fk", email, employeeTableQuery
+    )(_.email)
+
+    def * = (name, email, userName, age, gender, password) <> (Dependent.tupled, Dependent.unapply)
   }
 
-  val dependentTableQuery:TableQuery[DependentTable] = TableQuery[DependentTable] //DependentTableQuery is used to create and execute queries on EmployeeTable
+  val dependentTableQuery: TableQuery[DependentTable] = TableQuery[DependentTable] //DependentTableQuery is used to create and execute queries on EmployeeTable
 
 }
-
