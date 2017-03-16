@@ -38,11 +38,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ProjectRepoSpec.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ProjectRepoSpec.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/scala/repos/ProjectRepoSpec.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
-              <caret line="9" column="53" lean-forward="false" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+              <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
               <folding>
                 <element signature="e#15#47#0" expanded="true" />
               </folding>
@@ -50,56 +50,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="schema.sql" pinned="false" current-in-tab="true">
+      <file leaf-file-name="schema.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/schema.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="288">
+              <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="H2DBComponent.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/connections/H2DBComponent.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="16" column="174" lean-forward="false" selection-start-line="16" selection-start-column="174" selection-end-line="16" selection-end-column="174" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProjectTable.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/tables/ProjectTable.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="44" />
-              <folding>
-                <element signature="e#16#65#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Project.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/models/Project.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EmployeeTable.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/tables/EmployeeTable.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="21" column="45" lean-forward="false" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
-              <folding>
-                <element signature="e#16#65#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -107,18 +63,8 @@
       <file leaf-file-name="initialdata.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/initialdata.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Employee.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/models/Employee.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="26" lean-forward="false" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="78" />
               <folding />
             </state>
           </provider>
@@ -127,8 +73,8 @@
       <file leaf-file-name="ProjectRepo.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/repos/ProjectRepo.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+            <state relative-caret-position="123">
+              <caret line="54" column="7" lean-forward="true" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="12" />
               <folding>
                 <element signature="e#15#64#0" expanded="true" />
               </folding>
@@ -136,11 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DependentTable.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/tables/DependentTable.scala">
+      <file leaf-file-name="ProjectTable.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/tables/ProjectTable.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+            <state relative-caret-position="252">
+              <caret line="14" column="70" lean-forward="false" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
               <folding>
                 <element signature="e#16#65#0" expanded="true" />
               </folding>
@@ -153,8 +99,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>employeeTable.</find>
-      <find>projectTable.</find>
       <find>&quot;</find>
+      <find>projectTable.</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -181,13 +127,13 @@
         <option value="$PROJECT_DIR$/src/main/scala/tables/DependentTable.scala" />
         <option value="$PROJECT_DIR$/src/test/resources/application.conf" />
         <option value="$PROJECT_DIR$/src/main/scala/Main.scala" />
-        <option value="$PROJECT_DIR$/src/test/scala/repos/ProjectRepoSpec.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/repos/ProjectRepo.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/tables/EmployeeTable.scala" />
         <option value="$PROJECT_DIR$/src/test/scala/connections/H2DBComponent.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/tables/ProjectTable.scala" />
         <option value="$PROJECT_DIR$/src/test/resources/initialdata.sql" />
         <option value="$PROJECT_DIR$/src/test/resources/schema.sql" />
+        <option value="$PROJECT_DIR$/src/main/scala/tables/ProjectTable.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/repos/ProjectRepo.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/repos/ProjectRepoSpec.scala" />
       </list>
     </option>
   </component>
@@ -240,6 +186,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala-minimal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala-minimal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="repos" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -407,19 +383,38 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="ScalaTest.ProjectRepoSpec.it should add new project">
-    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
+  <component name="RunManager" selected="ScalaTest.ProjectRepoSpec">
+    <configuration default="false" name="ProjectRepoSpec.it should get all the rows in table" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
       <module name="scala-minimal" />
+      <setting name="path" value="repos.ProjectRepoSpec" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="it should get all the rows in table" />
+      <setting name="testKind" value="Test name" />
+      <setting name="showProgressMessages" value="true" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ProjectRepoSpec.it should join the tables" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="scala-minimal" />
+      <setting name="path" value="repos.ProjectRepoSpec" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="it should join the tables" />
+      <setting name="testKind" value="Test name" />
+      <setting name="showProgressMessages" value="true" />
+      <classRegexps />
+      <testRegexps />
       <envs />
       <method />
     </configuration>
@@ -451,6 +446,23 @@
       <setting name="searchForTest" value="Across module dependencies" />
       <setting name="testName" value="" />
       <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ProjectRepoSpec.it should get the name of project based on empId -- the method uses the plain SQL query" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="scala-minimal" />
+      <setting name="path" value="repos.ProjectRepoSpec" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="it should get the name of project based on empId -- the method uses the plain SQL query" />
+      <setting name="testKind" value="Test name" />
       <setting name="showProgressMessages" value="true" />
       <classRegexps />
       <testRegexps />
@@ -712,16 +724,20 @@
       <envs />
       <method />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="ScalaTest.ProjectRepoSpec.it should add new project" />
-      <item index="2" class="java.lang.String" itemvalue="ScalaTest.ProjectRepoSpec" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="ScalaTest.ProjectRepoSpec.it should get all the rows in table" />
+      <item index="1" class="java.lang.String" itemvalue="ScalaTest.ProjectRepoSpec.it should join the tables" />
+      <item index="2" class="java.lang.String" itemvalue="ScalaTest.ProjectRepoSpec.it should add new project" />
+      <item index="3" class="java.lang.String" itemvalue="ScalaTest.ProjectRepoSpec" />
+      <item index="4" class="java.lang.String" itemvalue="ScalaTest.ProjectRepoSpec.it should get the name of project based on empId -- the method uses the plain SQL query" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="ScalaTest.ProjectRepoSpec.it should add new project" />
-        <item index="1" class="java.lang.String" itemvalue="ScalaTest.ProjectRepoSpec" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="ScalaTest.ProjectRepoSpec" />
+        <item index="1" class="java.lang.String" itemvalue="ScalaTest.ProjectRepoSpec.it should get the name of project based on empId -- the method uses the plain SQL query" />
+        <item index="2" class="java.lang.String" itemvalue="ScalaTest.ProjectRepoSpec.it should add new project" />
+        <item index="3" class="java.lang.String" itemvalue="ScalaTest.ProjectRepoSpec.it should join the tables" />
+        <item index="4" class="java.lang.String" itemvalue="ScalaTest.ProjectRepoSpec.it should get all the rows in table" />
       </list>
     </recent_temporary>
   </component>
@@ -781,23 +797,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ProjectRepoSpec - 2017.03.16 at 14h 16m 11s.xml">
+    <history-entry file="ProjectRepoSpec - 2017.03.16 at 17h 47m 46s.xml">
       <configuration name="ProjectRepoSpec" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="ProjectRepoSpec - 2017.03.16 at 14h 17m 21s.xml">
+    <history-entry file="ProjectRepoSpec - 2017.03.16 at 18h 30m 42s.xml">
       <configuration name="ProjectRepoSpec" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="ProjectRepoSpec - 2017.03.16 at 15h 20m 27s.xml">
-      <configuration name="ProjectRepoSpec" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="ProjectRepoSpec_it_should_get_the_name_of_project_based_on_empId_--_the_method_uses_the_plain_SQL_query - 2017.03.16 at 18h 00m 03s.xml">
+      <configuration name="ProjectRepoSpec.it should get the name of project based on empId -- the method uses the plain SQL query" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="ProjectRepoSpec_it_should_add_new_project - 2017.03.16 at 11h 17m 17s.xml">
-      <configuration name="ProjectRepoSpec.it should add new project" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="ProjectRepoSpec_it_should_get_the_name_of_project_based_on_empId_--_the_method_uses_the_plain_SQL_query - 2017.03.16 at 18h 17m 02s.xml">
+      <configuration name="ProjectRepoSpec.it should get the name of project based on empId -- the method uses the plain SQL query" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="ProjectRepoSpec_it_should_add_new_project - 2017.03.16 at 14h 14m 19s.xml">
-      <configuration name="ProjectRepoSpec.it should add new project" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="ProjectRepoSpec_it_should_get_the_name_of_project_based_on_empId_--_the_method_uses_the_plain_SQL_query - 2017.03.16 at 18h 19m 20s.xml">
+      <configuration name="ProjectRepoSpec.it should get the name of project based on empId -- the method uses the plain SQL query" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="ProjectRepoSpec_it_should_add_new_project - 2017.03.16 at 15h 21m 58s.xml">
-      <configuration name="ProjectRepoSpec.it should add new project" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="ProjectRepoSpec_it_should_get_the_name_of_project_based_on_empId_--_the_method_uses_the_plain_SQL_query - 2017.03.16 at 18h 22m 39s.xml">
+      <configuration name="ProjectRepoSpec.it should get the name of project based on empId -- the method uses the plain SQL query" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ProjectRepoSpec_it_should_get_the_name_of_project_based_on_empId_--_the_method_uses_the_plain_SQL_query - 2017.03.16 at 18h 23m 52s.xml">
+      <configuration name="ProjectRepoSpec.it should get the name of project based on empId -- the method uses the plain SQL query" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ProjectRepoSpec_it_should_get_the_name_of_project_based_on_empId_--_the_method_uses_the_plain_SQL_query - 2017.03.16 at 18h 28m 56s.xml">
+      <configuration name="ProjectRepoSpec.it should get the name of project based on empId -- the method uses the plain SQL query" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ProjectRepoSpec_it_should_get_the_name_of_project_based_on_empId_--_the_method_uses_the_plain_SQL_query - 2017.03.16 at 18h 29m 23s.xml">
+      <configuration name="ProjectRepoSpec.it should get the name of project based on empId -- the method uses the plain SQL query" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="ProjectRepoSpec_it_should_get_the_name_of_project_based_on_empId_--_the_method_uses_the_plain_SQL_query - 2017.03.16 at 18h 30m 27s.xml">
+      <configuration name="ProjectRepoSpec.it should get the name of project based on empId -- the method uses the plain SQL query" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -832,7 +860,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935917" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32935917" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935917" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22474378" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1072,16 +1100,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/repos/ProjectRepoSpec.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="53" lean-forward="false" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
-          <folding>
-            <element signature="e#15#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/tables/DependentTable.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -1126,39 +1144,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/repos/ProjectRepo.scala">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/schema.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="31" lean-forward="false" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding>
-            <element signature="e#15#64#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="288">
+          <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/initialdata.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="78" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/tables/ProjectTable.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
-          <caret line="14" column="44" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="44" />
+          <caret line="14" column="70" lean-forward="false" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
           <folding>
             <element signature="e#16#65#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/initialdata.sql">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/repos/ProjectRepo.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="25" lean-forward="false" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-          <folding />
+        <state relative-caret-position="123">
+          <caret line="54" column="7" lean-forward="true" selection-start-line="54" selection-start-column="7" selection-end-line="54" selection-end-column="12" />
+          <folding>
+            <element signature="e#15#64#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/schema.sql">
+    <entry file="file://$PROJECT_DIR$/src/test/scala/repos/ProjectRepoSpec.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="162">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding>
+            <element signature="e#15#47#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

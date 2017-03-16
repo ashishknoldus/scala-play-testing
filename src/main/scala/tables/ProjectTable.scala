@@ -12,7 +12,7 @@ trait ProjectTable extends EmployeeTable{
 
   class ProjectTable(tag: Tag) extends Table[Project](tag, "project"){
 
-    val empId: Rep[Int] = column[Int]("empId", O.PrimaryKey)
+    val empId: Rep[Int] = column[Int]("empId", O.PrimaryKey, O.AutoInc)
     val name: Rep[String] = column[String]("name")
 
     def employeeProjectFK = foreignKey(

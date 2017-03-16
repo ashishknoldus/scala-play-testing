@@ -14,7 +14,7 @@ drop table if exists project;
 
 create table if not exists project(
 
-    empId integer(4) not null,
+    empId integer(4) not null primary key,
     name varchar(30) not null
 
 );
